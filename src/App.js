@@ -22,13 +22,13 @@ function App() {
 
   const handleInputChange = (e) => {
     const inputNumero = Number(e.target.value);
-    const divResultado = inputNumero / venta;
-    const divisionFormato = new Intl.NumberFormat().format(
-      divResultado.toFixed(2),
-    );
-    const multiResultado = inputNumero * compra;
-    const multiplicacionFormato = new Intl.NumberFormat().format(
+    const multiResultado = inputNumero * venta;
+    const multiplicacionFormato  = new Intl.NumberFormat().format(
       multiResultado,
+    );
+    const divResultado  = inputNumero / compra;
+    const divisionFormato =  new Intl.NumberFormat().format(
+      divResultado.toFixed(2),
     );
     setDiv(divisionFormato);
     setMulti(multiplicacionFormato);
