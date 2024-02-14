@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(to right, rgb(34, 197, 94), rgb(21, 128, 61));
+}
+.contenedor_compra_venta {
+  font-family: sans-serif;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 3%;
+  background: #ffffff;
+}
+.titulo_contenedor,
+.contenedor_compra_venta,
+.parrafo_contenedor {
+  text-align: center;
+}
+
+.contenedor_texto,
+.texto_conversor {
+  font-size: 150%;
+}
+
+.contenedor_input {
+  width: 40%;
+}
+
+@media (max-width: 1000px) {
+  .contenedor_compra_venta {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
